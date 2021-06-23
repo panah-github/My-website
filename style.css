@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+img {
+    border: 5px solid pink;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+#title {
+    font-family: 'Train One', cursive;
+    z-index: 9;
+  margin-top: 50px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+}
+
+button:hover {
+    font-size: 30px;
+    width: 300px;
+    background-color: chocolate;
+}
+.menu{
+    list-style:none;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    z-index: 10;
+    background-color: transparent;
+    position:fixed;
+}
+.items{
+    float:left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+.items:hover{
+    background-color:transparent;
+    font-size: 20px;
+    color:crimson;
+}
+
+#apps{
+    width:100%;
+    background-color: darkseagreen;
+}
+#games{
+    width:100%;
+    background-color: darkslateblue;
+}
+#chatbot{
+    width:100%;
+    background-color:darkturquoise;
+}
+.line{
+    width:100px;
+    margin:8px auto;
+    background-color: chartreuse;
+    height:6px;
+}
+img{
+    width:350px;
+    height:350px;
+    border:5px dotted red;
+    transition: transform 0.2s;
+}
+img:hover{
+    transform:scale(0.9);
+}
+.socials h3{
+    display:inline;
+    font-size:15px;
+    font-family:monospace;
+    color: green;
+}
+.socials{
+    background-color: dodgerblue;
+}
